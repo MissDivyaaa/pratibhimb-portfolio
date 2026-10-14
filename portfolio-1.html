@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles-portfolio-1.css" />
+    <title>PRATIBHIMB — Portfolio 3 (dup)</title>
+  </head>
+  <body>
+    <!-- Content copied from index.html so you can edit this page separately -->
+    <header class="header" id="home">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <!-- <a href="#">
+              <img src="assets/logo-white.png" alt="logo" />
+            </a> -->
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html#home">HOME</a></li>
+          <li><a href="index.html#about">ABOUT US</a></li>
+          <li><a href="index.html#service">SERVICES</a></li>
+          <li class="nav__logo">
+            <!-- <a href="index.html">
+              <img src="assets/logo-white.png" alt="logo" />
+            </a> -->
+          </li>
+          <li><a href="index.html#client">CLIENT</a></li>
+          <li><a href="index.html#blog">BLOG</a></li>
+          <li><a href="index.html#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="section__container about__container" id="about">
+        <h2 class="section__header">WE CAPTURE THE MOMENTS</h2>
+        <p class="section__description">
+          At Capturer, we specialize in freezing those fleeting moments in time
+          that hold immense significance for you. With our passion for
+          photography and keen eye for detail, we transform ordinary moments
+          into extraordinary memories.
+        </p>
+        <!-- <img src="assets/logo-dark.png" alt="logo" /> -->
+      </div>
+
+      <div class="section__container portfolio__container">
+        <h2 class="section__header">~ PORTFOLIO ~</h2>
+        <div class="portfolio__grid">
+          <div class="portfolio__card">
+            <img src="assets/select 1/haldi/H14.jpg" alt="portfolio" />
+            <div class="portfolio__content">
+              <a class="btn" href="rituals.html" target="_blank" rel="noopener">RITUALS</a>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <img src="assets/select 1/ring/q7.jpg" alt="portfolio" />
+            <div class="portfolio__content">
+              <a class="btn" href="engagement.html" target="_blank" rel="noopener">RING CEREMONY</a>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <img src="assets/select 1/wedding/P40.jpg" alt="portfolio" />
+            <div class="portfolio__content">
+              <a class="btn" href="portrait.html" target="_blank" rel="noopener">PORTRAIT</a>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <img src="assets/select 1/wedding couple/P30.jpg" alt="portfolio" />
+            <div class="portfolio__content">
+              <a class="btn" href="wedding.html" target="_blank" rel="noopener">WEDDING</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section__container video-highlights__container" id="video-highlights">
+        <h2 class="section__header">~ VIDEO HIGHLIGHTS ~</h2>
+        <p class="section__description">
+          Relive this couple's moments in motion.
+        </p>
+        <div class="video-highlights__grid">
+          <figure class="video-highlight__card">
+            <video class="video-highlight__video" controls playsinline preload="metadata" aria-label="Couple 1 video highlight 1">
+              <source src="assets/together/WhatsApp%20Video%202026-10-14%20at%2022.53.29.mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <figcaption class="video-highlight__caption">Couple highlight 1</figcaption>
+          </figure>
+          <figure class="video-highlight__card">
+            <video class="video-highlight__video" controls playsinline preload="metadata" aria-label="Couple 1 video highlight 2">
+              <source src="assets/together/WhatsApp%20Video%202026-10-14%20at%2022.53.31.mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <figcaption class="video-highlight__caption">Couple highlight 2</figcaption>
+          </figure>
+          <figure class="video-highlight__card">
+            <video class="video-highlight__video" controls playsinline preload="metadata" aria-label="Couple 1 video highlight 3">
+              <source src="assets/together/WhatsApp%20Video%202026-10-14%20at%2022.53.31%20(1).mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <figcaption class="video-highlight__caption">Couple highlight 3</figcaption>
+          </figure>
+          <figure class="video-highlight__card">
+            <video class="video-highlight__video" controls playsinline preload="metadata" aria-label="Couple 1 video highlight 4">
+              <source src="assets/together/WhatsApp%20Video%202026-10-14%20at%2022.53.31%20(2).mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <figcaption class="video-highlight__caption">Couple highlight 4</figcaption>
+          </figure>
+          <figure class="video-highlight__card">
+            <video class="video-highlight__video" controls playsinline preload="metadata" aria-label="Couple 1 video highlight 5">
+              <source src="assets/together/WhatsApp%20Video%202026-10-14%20at%2022.53.32.mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <figcaption class="video-highlight__caption">Couple highlight 5</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Instagram slideshow (Swiper) — displays as responsive portfolio-card slides -->
+      <section class="section__container instagram__container">
+        <h2 class="section__header">~ GALLERY ~</h2>
+
+        <div class="swiper instagram-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/ring/q7.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/ring/q3.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/MEHNDI/M8.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/MEHNDI/M15.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/haldi/H20.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/haldi/H4.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/wedding/P10.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/wedding/P12.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/wedding couple/P1.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio__card">
+                <img src="assets/select 1/wedding couple/P28.jpg" alt="instagram" />
+                <div class="portfolio__content"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
