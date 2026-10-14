@@ -5,9 +5,8 @@ A static HTML, CSS, and JavaScript portfolio website for Pratibhimb.
 ## Deploy to Vercel
 
 1. Import this GitHub repository into Vercel.
-2. Use the project root as the root directory.
-3. Select **Other** as the framework preset and leave the build command empty.
-4. Deploy. The site is served from `index.html`.
+2. Deploy from the `main` branch. The included `vercel.json` selects the project
+   root as the static output directory; no build command is required.
 
 The repository tracks video files with Git LFS. Make sure Git LFS is enabled for
 the GitHub repository so the full video files are available during deployment.
